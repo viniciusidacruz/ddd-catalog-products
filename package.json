@@ -1,7 +1,6 @@
 {
   "name": "ddd-catalog-products",
   "version": "0.0.0",
-  "description": "",
   "main": "src/main.ts",
   "engines": {
     "node": ">=18.0.0",
@@ -11,7 +10,20 @@
     "bun": "please-use-npm"
   },
   "scripts": {},
-  "keywords": ["nodejs", "ddd", "typescript", "javascript", "test", "jest", "solid", "clean code"],
+  "keywords": [
+    "nodejs",
+    "ddd",
+    "typescript",
+    "javascript",
+    "test",
+    "jest",
+    "solid",
+    "clean code"
+  ],
   "author": "Vinicius Italo da Cruz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "6.1.3",
+    "typescript": "5.4.5"
+  }
 }
